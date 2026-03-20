@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ellen Mae J. Borja - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated Background Orbs -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">EMJB</div>
+      <ul class="nav-links">
+        <li><a href="#" data-page="home" class="active">Home</a></li>
+        <li><a href="#" data-page="about">About Me</a></li>
+        <li><a href="#" data-page="course">Course</a></li>
+        <li class="dropdown">
+          <a href="#" data-page="activities">Activities <span class="dropdown-arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" data-activity="activity1">Activity 1: Basic Exercises</a></li>
+            <li><a href="#" data-activity="activity2">Activity 2: Text Exercises</a></li>
+            <li><a href="#" data-activity="activity3">Activity 3: Text Formatting Exercises</a></li>
+            <li><a href="#" data-activity="activity4">Activity 4: Link Exercises</a></li>
+            <li><a href="#" data-activity="activity5">Activity 5: Image Exercises</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Home Page -->
+    <div id="home" class="page active">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Ellen Mae Borja</h1>
+          <p>Web Systems and Technology - IT326 </p>
+          <div class="cta-buttons">
+            <button data-page="about">About Me →</button>
+            <button data-page="activities">View Activities</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- About Me Page -->
+    <div id="about" class="page">
+      <section class="about-section">
+        <div class="photo-card">
+          <div class="photo-placeholder">
+            <img src="ChatGPT Image Mar 14, 2026, 10_20_09 PM.png" alt="Ellen Mae Borja" />
+          </div>
+        </div>
+        <div class="bio">
+          <p>Hi! I'm Ellen Mae J. Borja, a BSIT-3C student passionate about web development. I enjoy building clean and functional websites and this portfolio showcases my journey through Web Systems and Technology - IT326.</p>
+          <blockquote>"A great website turns visitors into customers."</blockquote>
+        </div>
+        <div class="info-grid">
+          <div><strong>Course:</strong> Web Systems and Technology - IT326</div>
+          <div><strong>Location:</strong> Cantilan, Surigao del sur</div>
+          <div><strong>Interest:</strong> Web Development</div>
+          <div><strong>Goal:</strong> Become a full-stack developer</div>
+        </div>
+        <div class="skills">
+          <div class="skill">
+            <span>HTML</span>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+            <span>80%</span>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+            <span>75%</span>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="70"></div>
+            </div>
+            <span>70%</span>
+          </div>
+          <div class="skill">
+            <span>Web Design</span>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="65"></div>
+            </div>
+            <span>65%</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Course Page -->
+    <div id="course" class="page">
+      <section class="course-hero">
+        <h2>Web Systems and Technology</h2>
+        <div class="course-badge">IT326</div>
+        <p>This course covers the fundamentals of web development, including HTML, CSS, JavaScript, and modern web design principles. Students will learn to build responsive, interactive websites.</p>
+        <div class="meta-row">
+          <span><strong>Semester:</strong> 2nd Semester</span>
+          <span><strong>Student:</strong> Ellen Mae J. Borja</span>
+          <span><strong>Activities:</strong> 5</span>
+        </div>
+        <div class="topics">
+          <span>Basic HTML Structure</span>
+          <span>Text Color & Font Styling</span>
+          <span>Headings & Text Formatting</span>
+          <span>Superscript & Subscript</span>
+          <span>Ordered & Unordered Lists</span>
+          <span>Quotes & Preformatted Text</span>
+          <span>Definition Lists</span>
+          <span>Abbreviations & Acronyms</span>
+          <span>Hyperlinks & Navigation</span>
+          <span>Anchor Links</span>
+          <span>Images & Media</span>
+          <span>Address Formatting</span>
+        </div>
+        <ul class="outcomes">
+          <li>Build a basic webpage from scratch using proper HTML structure including head and body sections</li>
+          <li>Apply text colors, font families, and different heading sizes to style content on a webpage</li>
+          <li>Use text formatting tags such as bold, italic, underline, superscript, and subscript correctly</li>
+          <li>Create both ordered and unordered lists to organize and present information clearly</li>
+          <li>Use semantic HTML elements like blockquote, pre, del, ins, address, and definition lists properly</li>
+          <li>Display abbreviations and acronyms with their full meaning using the abbr tag</li>
+          <li>Create hyperlinks to external websites and open them in a new browser window</li>
+          <li>Build in-page anchor navigation that jumps between the top and bottom of a page</li>
+          <li>Display images on a webpage with proper titles, dimensions, and borders</li>
+          <li>Link images to external websites and to themselves for full browser display</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Activities Page -->
+    <div id="activities" class="page">
+      <section class="activities-section">
+        <div class="tab-content">
+          <div id="activity1" class="activity-panel active">
+            <div class="activity-header">
+              <div class="activity-number">01</div>
+              <h3>Basic Exercises</h3>
+            </div>
+            <div class="parts">
+              <div class="part">
+                <button class="part-toggle">Exercise 1</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a webpage that prints your name to the screen.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 154940.png" alt="Exercise 1 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 154928.png" alt="Exercise 1 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 2</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a webpage that prints the number 1 - 10 to the screen.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 155123.png" alt="Exercise 2 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 155113.png" alt="Exercise 2 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 3</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a webpage and set its title to "This is a webpage".</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 155244.png" alt="Exercise 3 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 155233.png" alt="Exercise 3 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 4</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a webpage that prints the message "When was the this webpage created? Check page's title for the answer." to the screen, and set the title of the page to the current date.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 155442.png" alt="Exercise 4 Code" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 155432.png" alt="Exercise 4 Output" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 5</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a webpage that prints any text of your choosing to the screen, do not include a head section in the code.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 155618.png" alt="Exercise 5 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 155605.png" alt="Exercise 5 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 6</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Repeat exercise #5, but this time include a head section in the code.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="Screenshot 2026-02-05 155826.png" alt="Exercise 6 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="Screenshot 2026-02-05 155816.png" alt="Exercise 6 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="activity2" class="activity-panel">
+            <div class="activity-header">
+              <div class="activity-number">02</div>
+              <h3>Text Exercises</h3>
+            </div>
+            <div class="parts">
+              <div class="part">
+                <button class="part-toggle">Exercise 1</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print your name in green.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215258.png" alt="Exercise 1 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215248.png" alt="Exercise 1 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 2</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print the number 1 - 10, each number being a different color.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215404.png" alt="Exercise 2 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215420.png" alt="Exercise 2 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 3</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Prints your in a Tahoma font.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215532.png" alt="Exercise 3 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 215544.png" alt="Exercise 3 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 4</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print a paragraph with 4-5 sentences. Each sentence should be a different font.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 220233.png" alt="Exercise 4 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 220224.png" alt="Exercise 4 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 5</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print a paragraph that is a description of a book.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 220430.png" alt="Exercise 5 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 220439.png" alt="Exercise 5 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 6</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print your name to the screen with every letter being a different heading size.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 2/Screenshot 2026-02-04 221055.png" alt="Exercise 6 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 2/Screenshot 2026-02-04 221103.png" alt="Exercise 6 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="activity3" class="activity-panel">
+            <div class="activity-header">
+              <div class="activity-number">03</div>
+              <h3>Text Formatting Exercises</h3>
+            </div>
+            <div class="parts">
+              <div class="part">
+                <button class="part-toggle">Exercise 1</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print the squares of the number 1-20. Each number should be on a separate line.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-04 221654.png" alt="Exercise 1 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-04 221705.png" alt="Exercise 1 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 2</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Prints 10 names with a line break between each name. The lists should be alphabetized. Print first the unalphabetized list.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222327.png" alt="Exercise 2 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222309.png" alt="Exercise 2 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 3</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print two paragraphs that are both indented using &nbsp; command.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222659.png" alt="Exercise 3 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222642.png" alt="Exercise 3 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 4</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print two lists with any information you want. one should be ordered list, the other should be unordered list.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222952.png" alt="Exercise 4 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-04 222940.png" alt="Exercise 4 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 5</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print an h1 level heading followed by a horizontal line with a width of 100%. Below the horizontal line is a text related to the heading.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-04 223239.png" alt="Exercise 5 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-04 223256.png" alt="Exercise 5 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 6</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print some Preformatted text of your choosing.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 095846.png" alt="Exercise 6 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 095859.png" alt="Exercise 6 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 7</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print a long quote and a short quote. Cite the author of each quote.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101557.png" alt="Exercise 7 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101605.png" alt="Exercise 7 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 8</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print some deleted and inserted text of your choosing.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101715.png" alt="Exercise 8 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101723.png" alt="Exercise 8 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 9</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print a definition list with 5 items.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101919.png" alt="Exercise 9 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 101911.png" alt="Exercise 9 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 10</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print two addresses in the same format used on the front envelopes.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 102331.png" alt="Exercise 10 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 102341.png" alt="Exercise 10 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 11</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Print 10 acronyms and abbreviations of your choosing, each separated by two lines.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 3/Screenshot 2026-02-05 123035.png" alt="Exercise 11 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 3/Screenshot 2026-02-05 122959.png" alt="Exercise 11 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="activity4" class="activity-panel">
+            <div class="activity-header">
+              <div class="activity-number">04</div>
+              <h3>Link Exercises</h3>
+            </div>
+            <div class="parts">
+              <div class="part">
+                <button class="part-toggle">Exercise 1</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create some links to various search engines.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 4/Screenshot 2026-02-05 143927.png" alt="Exercise 1 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 4/Screenshot 2026-02-05 143918.png" alt="Exercise 1 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 2</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create links to five different pages on five different websites that should all open in a new window.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144044.png" alt="Exercise 2 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144055.png" alt="Exercise 2 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 3</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create page with a link at the top of it that when clicked will jump all the way to the bottom of the page.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144241.png" alt="Exercise 3 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144217.png" alt="Exercise 3 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 4</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create a page with a link at the bottom of it that when clicked will jump all the way to the top of the page.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144440.png" alt="Exercise 4 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144453.png" alt="Exercise 4 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 5</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Create page with a link at the top of it that when clicked will jump all the way to the bottom of the page. At the bottom of the page there should be a link to jump back to the top of the page.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144606.png" alt="Exercise 5 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 4/Screenshot 2026-02-05 144628.png" alt="Exercise 5 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="activity5" class="activity-panel">
+            <div class="activity-header">
+              <div class="activity-number">05</div>
+              <h3>Image Exercises</h3>
+            </div>
+            <div class="parts">
+              <div class="part">
+                <button class="part-toggle">Exercise 1</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Display 5 different images. Skip two lines between each image. Each should have a title.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 5/Screenshot 2026-02-05 151634.png" alt="Exercise 1 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 5/Screenshot 2026-02-05 151655.png" alt="Exercise 1 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 2</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Display an image that has a border of size 2, a width of 200, and a height of 200.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 5/Screenshot 2026-02-05 152108.png" alt="Exercise 2 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 5/Screenshot 2026-02-05 152134.png" alt="Exercise 2 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 3</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Display an image that when clicked will link to a search engine of your choice.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 5/Screenshot 2026-02-05 152510.png" alt="Exercise 3 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 5/Screenshot 2026-02-05 152523.png" alt="Exercise 3 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="part">
+                <button class="part-toggle">Exercise 4</button>
+                <div class="part-content">
+                  <div class="instructions">
+                    <h4>Instructions</h4>
+                    <p>Display an image that when clicked will link to itself and will display the image in the browser by itself.</p>
+                  </div>
+                  <div class="answers" style="display: flex; flex-direction: column; gap: 10px;">
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Output</p>
+                      <img src="activity 5/Screenshot 2026-02-05 153158.png" alt="Exercise 4 Output" style="width: 100%;">
+                    </div>
+                    <div>
+                      <p style="font-size: small; margin: 5px 0;">Code</p>
+                      <img src="activity 5/Screenshot 2026-02-05 153144.png" alt="Exercise 4 Code" style="width: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
